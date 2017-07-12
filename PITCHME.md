@@ -26,20 +26,20 @@ def function_name(parameters):
 ```
 ---
 ###Above shown is a function definition which consists of following components.
-> Keyword <i><u>def</i></u> marks the start of function header.
+- Keyword <i><u>def</i></u> marks the start of function header.
 <br>
-> A function name to uniquely identify it. Function naming follows the same rules of writing identifiers in Python.
+- A function name to uniquely identify it. Function naming follows the same rules of writing identifiers in Python.
 <br>
-> Parameters (arguments) through which we pass values to a function. They are optional.
+- Parameters (arguments) through which we pass values to a function. They are optional.
 <br>
 ---
-> A colon (:) to mark the end of function header.
+- A colon (:) to mark the end of function header.
 <br>
-> Optional documentation string (docstring) to describe what the function does.
+- Optional documentation string (docstring) to describe what the function does.
 <br>
-> One or more valid python statements that make up the function body. Statements must have same indentation level (usually 4 spaces).
+- One or more valid python statements that make up the function body. Statements must have same indentation level (usually 4 spaces).
 <br>
-> An optional return statement to return a value from the function.
+- An optional return statement to return a value from the function.
 ---
 
 ### Example of Function.
