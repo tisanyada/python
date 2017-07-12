@@ -1,11 +1,8 @@
 ﻿
 # Python Function
-<br>
+---
 
-
-<br>
 <h3><span style="color:black">Function Arguments</span></strong></h4>
-<br>
 <h4><span style="color:black">Python Recursion</span></strong></h4>
 <br>
 <h4><span style="color:black">Anonymous Functions</span></strong></h4>
