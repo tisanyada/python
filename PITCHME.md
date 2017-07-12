@@ -62,7 +62,7 @@ The first string after the function header is called the docstring and is short 
 Although optional, documentation is a good programming practice. Unless you can remember what you had for dinner last week, always document your code.
 In the previous example, we have a docstring immediately below the function header. We generally use triple quotes so that docstring can extend up to multiple lines. This string is available to us as __doc__ attribute of the function.
 ---
-For example:
+###For example:
 ```python
 print(greet.__doc__)
 This function greets to
@@ -170,8 +170,59 @@ def calc_factorial(x):
 num = 4
 print("The factorial of", num, "is", calc_factorial(num))
 ```
+---
 In the above example, calc_factorial() is a recursive functions as it calls itself.
 
 When we call this function with a positive integer, it will recursively call itself by decreasing the number.
 
 Each function call multiples the number with the factorial of number 1 until the number is equal to one. This recursive call can be explained in the following steps.
+
+calc_factorial(4)              # 1st call with 4
+4 * calc_factorial(3)          # 2nd call with 3
+4 * 3 * calc_factorial(2)      # 3rd call with 2
+4 * 3 * 2 * calc_factorial(1)  # 4th call with 1
+4 * 3 * 2 * 1                  # return from 4th call as number=1
+4 * 3 * 2                      # return from 3rd call
+4 * 6                          # return from 2nd call
+24                             # return from 1st call
+Our recursion ends when the number reduces to 1. This is called the base condition.
+Every recursive function must have a base condition that stops the recursion or else the function calls itself infinitely.
+---
+###Advantages of recursion
+Recursive functions make the code look clean and elegant.
+A complex task can be broken down into simpler sub-problems using recursion.
+Sequence generation is easier with recursion than using some nested iteration.
+---
+###Disadvantages of recursion
+Sometimes the logic behind recursion is hard to follow through.
+Recursive calls are expensive (inefficient) as they take up a lot of memory and time.
+Recursive functions are hard to debug.
+---
+###Assignments
+Design a Python Program to Display Fibonacci Sequence Using Recursion
+Design a Python Program to Find Factors of Number
+Design a Python Program to Count the Number of Each Vowel
+---
+###Python Modules
+Modules refer to a file containing Python statements and definitions.
+A file containing Python code, for e.g.: <i>example.py</i>, is called a module and its module name would be <i>example</i>.
+We use modules to break down large programs into small manageable and organized files. Furthermore, modules provide reusability of code.
+We can define our most used functions in a module and import it, instead of copying their definitions into different programs.
+Let us create a module. Type the following and save it as <i>example.py</i>.
+---
+
+# Python Module example
+```python
+def add(a, b):
+   """This program adds two
+   numbers and return the result"""
+
+   result = a + b
+   return result
+```
+##Exercise.
+Python Program to Display Calendar
+Python Program to Shuffle Deck of Cards
+
+
+
