@@ -109,6 +109,7 @@ Basically, we can divide functions into the following two types:
 | Python asci() | Returns String Containing Printable Representation   |
 | Python bin() | converts integer to binary string  |
 ---
+| --- | --- |
 | Python bool() | Coverts a Value to Boolean   |
 | Python bytearray() | returns array of given byte size |
 | Python bytes() | returns immutable bytes object  |
