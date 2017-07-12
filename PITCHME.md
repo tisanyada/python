@@ -281,6 +281,39 @@ print("The value of pi is", pi)
 ---
 ##Python Package
 ![G22222](https://cdn.programiz.com/sites/tutorial2program/files/PackageModuleStructure.jpg)
+
+###Importing module from a package
+We can import modules from packages using the dot (.) operator.
+For example, if want to import the start module in the above example, it is done as follows.
+
+```python
+import Game.Level.start
+```
+Now if this module contains a function named select_difficulty(), we must use the full name to reference it.
+
+Game.Level.start.select_difficulty(2)
+If this construct seems lengthy, we can import the module without the package prefix as follows.
+```python
+from Game.Level import start
+```
+We can now call the function simply as follows.
+
+```python
+start.select_difficulty(2)
+```
+Yet another way of importing just the required function (or class or variable) form a module within a package would be as follows.
+
+```python
+from Game.Level.start import select_difficulty
+```
+Now we can directly call this function.
+
+```python
+select_difficulty(2)
+```
+Although easier, this method is not recommended. Using the full namespace avoids confusion and prevents two same identifier names from colliding.
+While importing packages, Python looks in the list of directories defined in sys.path, similar as for module search path.
+
 ##Exercise.
 Python Program to Display Calendar
 Python Program to Shuffle Deck of Cards
