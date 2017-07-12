@@ -26,20 +26,20 @@ def function_name(parameters):
 ```
 ---
 ###Above shown is a function definition which consists of following components.
-1. Keyword <i><u>def</i></u> marks the start of function header.
+> Keyword <i><u>def</i></u> marks the start of function header.
 <br>
-2. A function name to uniquely identify it. Function naming follows the same rules of writing identifiers in Python.
+> A function name to uniquely identify it. Function naming follows the same rules of writing identifiers in Python.
 <br>
-3. Parameters (arguments) through which we pass values to a function. They are optional.
+> Parameters (arguments) through which we pass values to a function. They are optional.
 <br>
 ---
-4. A colon (:) to mark the end of function header.
+> A colon (:) to mark the end of function header.
 <br>
-5. Optional documentation string (docstring) to describe what the function does.
+> Optional documentation string (docstring) to describe what the function does.
 <br>
-6. One or more valid python statements that make up the function body. Statements must have same indentation level (usually 4 spaces).
+> One or more valid python statements that make up the function body. Statements must have same indentation level (usually 4 spaces).
 <br>
-7. An optional return statement to return a value from the function.
+> An optional return statement to return a value from the function.
 ---
 
 ### Example of Function.
@@ -170,4 +170,8 @@ def calc_factorial(x):
 num = 4
 print("The factorial of", num, "is", calc_factorial(num))
 ```
+In the above example, calc_factorial() is a recursive functions as it calls itself.
 
+When we call this function with a positive integer, it will recursively call itself by decreasing the number.
+
+Each function call multiples the number with the factorial of number 1 until the number is equal to one. This recursive call can be explained in the following steps.
