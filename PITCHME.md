@@ -98,7 +98,7 @@ Basically, we can divide functions into the following two types:
 
    The Python interpreter has a number of functions that are always available for use. These functions are called built-in functions.
     Functions like print(), input(), range() etc. that we have been using, are some examples of the built-in functions.
-	In Python 3.6 (latest version), there are 68 built-in functions. They are listed below alphabetically along with their brief description.
+	In Python 3.6 (latest version), there are about 68 built-in functions. They are listed below alphabetically along with their brief description.
 ---
 
 | Method | Description |
@@ -119,6 +119,55 @@ Basically, we can divide functions into the following two types:
 | Python classmethod() | returns class method for given function  |
 | Python compile() | Returns a Python code object   |
 
+###user-defined functions
+Functions that we define ourselves to do certain specific task are referred as user-defined functions. The way in which we define and call functions in Python are already discussed.
+Functions that readily come with Python are called built-in functions. If we use functions written by others in the form of library, it can be termed as library functions.
+All the other functions that we write on our own fall under user-defined functions. So, our user-defined function could be a library function to someone else.
+---
+###Advantages of user-defined functions
+User-defined functions help to decompose a large program into small segments which makes program easy to understand, maintain and debug.
+If repeated code occurs in a program. Function can be used to include those codes and execute when needed by calling that function.
+Programmars working on large project can divide the workload by making different functions.
+---
+###Example of a user-defined function
+```python
+# Program to illustrate
+# the use of user-defined functions
 
+def add_numbers(x,y):
+   sum = x + y
+   return sum
 
+num1 = 5
+num2 = 6
+
+print("The sum is", add_numbers(num1, num2))
+```
+---
+##Python Recursion.
+Recursion is the process of defining something in terms of itself.
+A physical world example would be to place two parallel mirrors facing each other. Any object in between them would be reflected recursively.
+---
+###Python Recursive Function
+We know that in Python, a function can call other functions. It is even possible for the function to call itself. These type of construct are termed as recursive functions.
+Following is an example of recursive function to find the factorial of an integer.
+Factorial of a number is the product of all the integers from 1 to that number. For example, the factorial of 6 (denoted as 6!) is 1*2*3*4*5*6 = 720.
+---
+###Example of recursive function
+```python
+# An example of a recursive function to
+# find the factorial of a number
+
+def calc_factorial(x):
+    """This is a recursive function
+    to find the factorial of an integer"""
+
+    if x == 1:
+        return 1
+    else:
+        return (x * calc_factorial(x-1))
+
+num = 4
+print("The factorial of", num, "is", calc_factorial(num))
+```
 
