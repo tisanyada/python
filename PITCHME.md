@@ -203,8 +203,9 @@ Design a Python Program to Display Fibonacci Sequence Using Recursion
 Design a Python Program to Find Factors of Number
 Design a Python Program to Count the Number of Each Vowel
 ---
-##Python Modules
+#Python Modules
 ---
+###Python Modules
 Modules refer to a file containing Python statements and definitions.
 A file containing Python code, for e.g.: <i>example.py</i>, is called a module and its module name would be <i>example</i>.
 We use modules to break down large programs into small manageable and organized files. Furthermore, modules provide reusability of code.
@@ -212,7 +213,7 @@ We can define our most used functions in a module and import it, instead of copy
 Let us create a module. Type the following and save it as <i>example.py</i>.
 ---
 
-# Python Module example
+### Python Module example
 ```python
 def add(a, b):
    """This program adds two
@@ -221,6 +222,41 @@ def add(a, b):
    result = a + b
    return result
 ```
+Here, we have defined a function add() inside a module named example. The function takes in two numbers and returns their sum.
+---
+We can import the definitions inside a module to another module or the interactive interpreter in Python.
+We use the <i>import</i> keyword to do this. To import our previously defined module example we type the following in the Python prompt.
+---
+```python
+>>> import example
+```
+---
+This does not enter the names of the functions defined in example directly in the current symbol table. It only enters the module name example there.
+Using the module name we can access the function using dot (.) operation. For example:
+```python
+>>> example.add(4,5.5)
+9.5
+```
+---
+###Python import statement
+We can <i>import</i> a module using import statement and access the definitions inside it using the dot operator as described above. Here is an example.
+```python
+# import statement example
+# to import standard module math
+
+import math
+print("The value of pi is", math.pi)
+```
+---
+###Import with renaming
+We can import a module by renaming it as follows.
+```python
+# import module by renaming it
+
+import math as m
+print("The value of pi is", m.pi)
+```
+---
 ##Exercise.
 Python Program to Display Calendar
 Python Program to Shuffle Deck of Cards
