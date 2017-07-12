@@ -203,7 +203,8 @@ Design a Python Program to Display Fibonacci Sequence Using Recursion
 Design a Python Program to Find Factors of Number
 Design a Python Program to Count the Number of Each Vowel
 ---
-###Python Modules
+##Python Modules
+---
 Modules refer to a file containing Python statements and definitions.
 A file containing Python code, for e.g.: <i>example.py</i>, is called a module and its module name would be <i>example</i>.
 We use modules to break down large programs into small manageable and organized files. Furthermore, modules provide reusability of code.
