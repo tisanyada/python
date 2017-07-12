@@ -257,6 +257,30 @@ import math as m
 print("The value of pi is", m.pi)
 ```
 ---
+We have renamed the math module as m. This can save us typing time in some cases.
+Note that the name math is not recognized in our scope. Hence, math.pi is invalid, m.pi is the correct implementation.
+
+###Python from...import statement
+We can import specific names form a module without importing the module as a whole. Here is an example.
+```python
+# import only pi from math module
+
+from math import pi
+print("The value of pi is", pi)
+```
+---
+###Import all names
+We can import all names(definitions) form a module using the following construct.
+```python
+# import all names form
+# the standard module math
+
+from math import *
+print("The value of pi is", pi)
+```
+---
+##Python Package
+![G22222](https://cdn.programiz.com/sites/tutorial2program/files/PackageModuleStructure.jpg)
 ##Exercise.
 Python Program to Display Calendar
 Python Program to Shuffle Deck of Cards
