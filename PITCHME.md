@@ -192,13 +192,6 @@ Sometimes the logic behind recursion is hard to follow through.
 Recursive calls are expensive (inefficient) as they take up a lot of memory and time.
 <br>
 Recursive functions are hard to debug.
----
-###Assignments
-Design a Python Program to Display Fibonacci Sequence Using Recursion
-<br>
-Design a Python Program to Find Factors of Number
-<br>
-Design a Python Program to Count the Number of Each Vowel
 
 ---
 #Python Modules
@@ -316,4 +309,11 @@ While importing packages, Python looks in the list of directories defined in sys
 Python Program to Find the Largest Among Three Numbers
 Python Program to Generate a Random Number
 
+---
+###Assignments
+Design a Python Program to Display Fibonacci Sequence Using Recursion
+<br>
+Design a Python Program to Find Factors of Number
+<br>
+Design a Python Program to Count the Number of Each Vowel
 
