@@ -1,4 +1,13 @@
-﻿
+
+##Day 3 
+---
+<h4><span style="color:black">Input and Output</span></strong></h4>
+<h4><span style="color:black">Function Arguments</span></strong></h4>
+<h4><span style="color:black">Python Recursion</span></strong></h4>
+<h4><span style="color:black">Anonymous Functions</span></strong></h4>
+<h4><span style="color:black">Python Modules</span></strong></h4>
+<h4><span style="color:black">Python packages</span></strong></h4>
+---
  ##Input And Output
  ---
  ### Python Input and Output
@@ -122,13 +131,6 @@ Here, we can see that the entered value 10 is a string, not a number. To convert
 
 ---
 # Python Function
----
-
-<h4><span style="color:black">Function Arguments</span></strong></h4>
-<h4><span style="color:black">Python Recursion</span></strong></h4>
-<h4><span style="color:black">Anonymous Functions</span></strong></h4>
-<h4><span style="color:black">Python Modules</span></strong></h4>
-<h4><span style="color:black">Python packages</span></strong></h4>
 
 ---
 ## Functions
