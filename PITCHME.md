@@ -117,18 +117,7 @@ Here, we can see that the entered value 10 is a string, not a number. To convert
 >>> float('10')
 10.0
 ```
----
 
-This same operation can be performed using the eval() function. But it takes it further. It can evaluate even expressions, provided the input is a string
-```python
->>> int('2+3')
-Traceback (most recent call last):
-  File "<string>", line 301, in runcode
-  File "<interactive input>", line 1, in <module>
-ValueError: invalid literal for int() with base 10: '2+3'
->>> eval('2+3')
-5
-```
 ---
 # Python Function
 ---
