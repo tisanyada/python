@@ -313,8 +313,7 @@ Although easier, this method is not recommended. Using the full namespace avoids
 While importing packages, Python looks in the list of directories defined in sys.path, similar as for module search path.
 ---
 ##Exercise.
-Python Program to Display Calendar
-Python Program to Shuffle Deck of Cards
-
+Python Program to Find the Largest Among Three Numbers
+Python Program to Generate a Random Number
 
 
