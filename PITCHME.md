@@ -1,4 +1,6 @@
 ﻿
+ ##Input And Output
+ ---
  ### Python Input and Output
 <br>
 Python provides numerous built-in functions that are readily available to us at the Python prompt.
@@ -21,7 +23,7 @@ In the second print() statement, we can notice that a space was added between th
 
 The actual syntax of the print() function is
 ```python
-print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+print(*objects, sep=' ', end='\n')
 ```
 
 ---
