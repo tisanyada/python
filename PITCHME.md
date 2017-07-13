@@ -1,4 +1,135 @@
 ﻿
+ ### Python Input and Output
+<br>
+Python provides numerous built-in functions that are readily available to us at the Python prompt.
+
+Some of the functions like input() and print() are widely used for standard input and output operations respectively. Let us see the output section first.
+```python
+print('This sentence is output to the screen')
+# Output: This sentence is output to the screen
+
+a = 5
+
+print('The value of a is', a)
+# Output: The value of a is 5
+```
+
+---
+
+<br>
+In the second print() statement, we can notice that a space was added between the string and the value of variable a.This is by default, but we can change it.
+
+The actual syntax of the print() function is
+```python
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+```
+
+---
+<br>
+Here, objects is the value(s) to be printed.
+
+The sep separator is used between the values. It defaults into a space character.
+
+After all values are printed, end is printed. It defaults into a new line.
+
+---
+<br>
+The file is the object where the values are printed and its default value is sys.stdout (screen). Here are an example to illustrate this.
+```python
+print(1,2,3,4)
+# Output: 1 2 3 4
+
+print(1,2,3,4,sep='*')
+# Output: 1*2*3*4
+
+print(1,2,3,4,sep='#',end='&')
+# Output: 1#2#3#4&
+```
+
+---
+
+### Output formatting
+
+<br>
+Sometimes we would like to format our output to make it look attractive. This can be done by using the str.format() method. This method is visible to any string object.
+
+```python
+>>> x = 5; y = 10
+>>> print('The value of x is {} and y is {}'.format(x,y))
+The value of x is 5 and y is 10
+```
+
+---
+<br>
+Here the curly braces {} are used as placeholders. We can specify the order in which it is printed by using numbers (tuple index).
+
+```python
+print('I love {0} and {1}'.format('bread','butter'))
+# Output: I love bread and butter
+
+print('I love {1} and {0}'.format('bread','butter'))
+# Output: I love butter and bread
+```
+
+---
+
+We can even use keyword arguments to format the string.
+```python
+>>> print('Hello {name}, {greeting}'.format(greeting = 'Goodmorning', name = 'John'))
+Hello John, Goodmorning
+```
+---
+<br>
+We can even format strings like the old sprintf() style used in C programming language. We use the % operator to accomplish this.
+```python
+>>> x = 12.3456789
+>>> print('The value of x is %3.2f' %x)
+The value of x is 12.35
+>>> print('The value of x is %3.4f' %x)
+The value of x is 12.3457
+```
+
+---
+
+### Python Input
+Up till now, our programs were static. The value of variables were defined or hard coded into the source code.
+
+To allow flexibility we might want to take the input from the user. In Python, we have the input() function to allow this. The syntax for input() is
+```python
+input([prompt])
+```
+---
+
+where prompt is the string we wish to display on the screen. It is optional.
+
+```python
+>>> num = input('Enter a number: ')
+Enter a number: 10
+>>> num
+'10'
+```
+---
+
+Here, we can see that the entered value 10 is a string, not a number. To convert this into a number we can use int() or float() functions.
+```python
+>>> int('10')
+10
+>>> float('10')
+10.0
+```
+---
+
+This same operation can be performed using the eval() function. But it takes it further. It can evaluate even expressions, provided the input is a string
+```python
+>>> int('2+3')
+Traceback (most recent call last):
+  File "<string>", line 301, in runcode
+  File "<interactive input>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '2+3'
+>>> eval('2+3')
+5
+```
+---
 # Python Function
 ---
 
