@@ -199,7 +199,7 @@ Design a Python Program to Display Fibonacci Sequence Using Recursion
 Design a Python Program to Find Factors of Number
 <br>
 Design a Python Program to Count the Number of Each Vowel
-:tongue:
+
 ---
 #Python Modules
 ---
@@ -279,7 +279,7 @@ print("The value of pi is", pi)
 ---
 ##Python Package
 ![G22222](https://cdn.programiz.com/sites/tutorial2program/files/PackageModuleStructure.jpg)
-
+---
 ###Importing module from a package
 We can import modules from packages using the dot (.) operator.
 For example, if want to import the start module in the above example, it is done as follows.
@@ -295,7 +295,7 @@ If this construct seems lengthy, we can import the module without the package pr
 from Game.Level import start
 ```
 We can now call the function simply as follows.
-
+---
 ```python
 start.select_difficulty(2)
 ```
@@ -311,7 +311,7 @@ select_difficulty(2)
 ```
 Although easier, this method is not recommended. Using the full namespace avoids confusion and prevents two same identifier names from colliding.
 While importing packages, Python looks in the list of directories defined in sys.path, similar as for module search path.
-
+---
 ##Exercise.
 Python Program to Display Calendar
 Python Program to Shuffle Deck of Cards
