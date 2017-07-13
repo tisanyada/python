@@ -175,27 +175,22 @@ In the above example, calc_factorial() is a recursive functions as it calls itse
 
 When we call this function with a positive integer, it will recursively call itself by decreasing the number.
 
-Each function call multiples the number with the factorial of number 1 until the number is equal to one. This recursive call can be explained in the following steps.
----
->calc_factorial(4)              # 1st call with 4
->4 * calc_factorial(3)          # 2nd call with 3
->4 * 3 * calc_factorial(2)      # 3rd call with 2
->4 * 3 * 2 * calc_factorial(1)  # 4th call with 1
->4 * 3 * 2 * 1                  # return from 4th call as number=1
->4 * 3 * 2                      # return from 3rd call
->4 * 6                          # return from 2nd call
->24                             # return from 1st call
+
 Our recursion ends when the number reduces to 1. This is called the base condition.
 Every recursive function must have a base condition that stops the recursion or else the function calls itself infinitely.
 ---
 ###Advantages of recursion
 Recursive functions make the code look clean and elegant.
+<br>
 A complex task can be broken down into simpler sub-problems using recursion.
+<br>
 Sequence generation is easier with recursion than using some nested iteration.
 ---
 ###Disadvantages of recursion
 Sometimes the logic behind recursion is hard to follow through.
+<br>
 Recursive calls are expensive (inefficient) as they take up a lot of memory and time.
+<br>
 Recursive functions are hard to debug.
 ---
 ###Assignments
@@ -204,6 +199,7 @@ Design a Python Program to Display Fibonacci Sequence Using Recursion
 Design a Python Program to Find Factors of Number
 <br>
 Design a Python Program to Count the Number of Each Vowel
+:tongue:
 ---
 #Python Modules
 ---
