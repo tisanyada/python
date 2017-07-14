@@ -8,7 +8,7 @@
 <h4><span style="color:black">Python Modules</span></strong></h4>
 <h4><span style="color:black">Python packages</span></strong></h4>
 ---
- ##Input And Output
+ ## Input And Output
  ---
  ### Python Input and Output
 <br>
@@ -142,14 +142,14 @@ Furthermore, it avoids repetition and makes code reusable.
 
 ---
 
- ###Syntax of Function
+ ### Syntax of Function
 ```python
 def function_name(parameters):
 	"""docstring"""
 	statement(s)
 ```
 ---
-###Above shown is a function definition which consists of following components.
+### Above shown is a function definition which consists of following components.
 - Keyword <i><u>def</i></u> marks the start of function header.
 <br>
 - A function name to uniquely identify it. Function naming follows the same rules of writing identifiers in Python.
@@ -175,25 +175,25 @@ print("hello, " +  name + ". Good morning")
 ```
 ---
 
-###Function Call.
+### Function Call.
 
 Once we have defined a function, we can call it from another function, program or even the Python prompt. To call a function we simply type the function name with appropriate parameters.
 ---
 
-###Docstring
+### Docstring
 
 The first string after the function header is called the docstring and is short for documentation string. It is used to explain in brief, what a function does.
 Although optional, documentation is a good programming practice. Unless you can remember what you had for dinner last week, always document your code.
 In the previous example, we have a docstring immediately below the function header. We generally use triple quotes so that docstring can extend up to multiple lines. This string is available to us as __doc__ attribute of the function.
 ---
-###For example:
+### For example:
 ```python
 print(greet.__doc__)
 This function greets to
 	the person passed into the name parameter.
 ```
 ---
-###Scope and Lifetime of variables
+### Scope and Lifetime of variables
 Scope of a variable is the portion of a program where the variable is recognized. Parameters and variables defined inside a function is not visible from outside. Hence, they have a local scope.
 
 Lifetime of a variable is the period throughout which the variable exits in the memory. The lifetime of variables inside a function is as long as the function executes.
@@ -210,7 +210,7 @@ my_fun()
 print ("value outside function:",x)
 ```
 ---
-###Types of Functions
+### Types of Functions
 
 Basically, we can divide functions into the following two types:
 
@@ -218,7 +218,7 @@ Basically, we can divide functions into the following two types:
    2. User-defined functions - Functions defined by the users themselves.
 
 ---
-###Built-in functions
+### Built-in functions
 
    The Python interpreter has a number of functions that are always available for use. These functions are called built-in functions.
     Functions like print(), input(), range() etc. that we have been using, are some examples of the built-in functions.
@@ -243,17 +243,17 @@ Basically, we can divide functions into the following two types:
 | Python classmethod() | returns class method for given function  |
 | Python compile() | Returns a Python code object   |
 
-###user-defined functions
+### user-defined functions
 Functions that we define ourselves to do certain specific task are referred as user-defined functions. The way in which we define and call functions in Python are already discussed.
 Functions that readily come with Python are called built-in functions. If we use functions written by others in the form of library, it can be termed as library functions.
 All the other functions that we write on our own fall under user-defined functions. So, our user-defined function could be a library function to someone else.
 ---
-###Advantages of user-defined functions
+### Advantages of user-defined functions
 User-defined functions help to decompose a large program into small segments which makes program easy to understand, maintain and debug.
 If repeated code occurs in a program. Function can be used to include those codes and execute when needed by calling that function.
 Programmars working on large project can divide the workload by making different functions.
 ---
-###Example of a user-defined function
+### Example of a user-defined function
 ```python
 # Program to illustrate
 # the use of user-defined functions
@@ -268,16 +268,16 @@ num2 = 6
 print("The sum is", add_numbers(num1, num2))
 ```
 ---
-##Python Recursion.
+## Python Recursion.
 Recursion is the process of defining something in terms of itself.
 A physical world example would be to place two parallel mirrors facing each other. Any object in between them would be reflected recursively.
 ---
-###Python Recursive Function
+### Python Recursive Function
 We know that in Python, a function can call other functions. It is even possible for the function to call itself. These type of construct are termed as recursive functions.
 Following is an example of recursive function to find the factorial of an integer.
 Factorial of a number is the product of all the integers from 1 to that number. For example, the factorial of 6 (denoted as 6!) is 1*2*3*4*5*6 = 720.
 ---
-###Example of recursive function
+### Example of recursive function
 ```python
 # An example of a recursive function to
 # find the factorial of a number
@@ -303,14 +303,14 @@ When we call this function with a positive integer, it will recursively call its
 Our recursion ends when the number reduces to 1. This is called the base condition.
 Every recursive function must have a base condition that stops the recursion or else the function calls itself infinitely.
 ---
-###Advantages of recursion
+### Advantages of recursion
 Recursive functions make the code look clean and elegant.
 <br>
 A complex task can be broken down into simpler sub-problems using recursion.
 <br>
 Sequence generation is easier with recursion than using some nested iteration.
 ---
-###Disadvantages of recursion
+### Disadvantages of recursion
 Sometimes the logic behind recursion is hard to follow through.
 <br>
 Recursive calls are expensive (inefficient) as they take up a lot of memory and time.
@@ -318,9 +318,9 @@ Recursive calls are expensive (inefficient) as they take up a lot of memory and 
 Recursive functions are hard to debug.
 
 ---
-#Python Modules
+# Python Modules
 ---
-###Python Modules
+### Python Modules
 Modules refer to a file containing Python statements and definitions.
 A file containing Python code, for e.g.: <i>example.py</i>, is called a module and its module name would be <i>example</i>.
 We use modules to break down large programs into small manageable and organized files. Furthermore, modules provide reusability of code.
@@ -353,7 +353,7 @@ Using the module name we can access the function using dot (.) operation. For ex
 9.5
 ```
 ---
-###Python import statement
+### Python import statement
 We can <i>import</i> a module using import statement and access the definitions inside it using the dot operator as described above. Here is an example.
 ```python
 # import statement example
@@ -363,7 +363,7 @@ import math
 print("The value of pi is", math.pi)
 ```
 ---
-###Import with renaming
+### Import with renaming
 We can import a module by renaming it as follows.
 ```python
 # import module by renaming it
@@ -375,7 +375,7 @@ print("The value of pi is", m.pi)
 We have renamed the math module as m. This can save us typing time in some cases.
 Note that the name math is not recognized in our scope. Hence, math.pi is invalid, m.pi is the correct implementation.
 
-###Python from...import statement
+### Python from...import statement
 We can import specific names form a module without importing the module as a whole. Here is an example.
 ```python
 # import only pi from math module
@@ -384,7 +384,7 @@ from math import pi
 print("The value of pi is", pi)
 ```
 ---
-###Import all names
+### Import all names
 We can import all names(definitions) form a module using the following construct.
 ```python
 # import all names form
@@ -394,10 +394,10 @@ from math import *
 print("The value of pi is", pi)
 ```
 ---
-##Python Package
+## Python Package
 ![G22222](https://cdn.programiz.com/sites/tutorial2program/files/PackageModuleStructure.jpg)
 ---
-###Importing module from a package
+### Importing module from a package
 We can import modules from packages using the dot (.) operator.
 For example, if want to import the start module in the above example, it is done as follows.
 
@@ -429,12 +429,12 @@ select_difficulty(2)
 Although easier, this method is not recommended. Using the full namespace avoids confusion and prevents two same identifier names from colliding.
 While importing packages, Python looks in the list of directories defined in sys.path, similar as for module search path.
 ---
-##Exercise.
+## Exercise.
 Python Program to Find the Largest Among Three Numbers
 Python Program to Generate a Random Number
 
 ---
-###Assignments
+### Assignments
 Design a Python Program to Display Fibonacci Sequence Using Recursion
 <br>
 Design a Python Program to Find Factors of Number
