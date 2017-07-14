@@ -1,5 +1,5 @@
 
-##Day 3 
+## Day 3 
 ---
 <h4><span style="color:black">Input and Output</span></strong></h4>
 <h4><span style="color:black">Function Arguments</span></strong></h4>
