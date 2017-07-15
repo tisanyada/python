@@ -85,6 +85,7 @@ elif test expression:
 else: 
     Body of else
 ```
+---
 ![if...elif...else](https://cdn.programiz.com/sites/tutorial2program/files/Python_if_elif_else_statement.jpg)
 ---
 #### Example of if...elif...else
@@ -223,12 +224,14 @@ while counter < 3:
 else:
     print("Inside else")
 ```
+---
 ### Python break and continue
 ---
 #### syntax of break 
 ```python
 break
 ```
+---
 #### Flowchart of break
 ![break](https://cdn.programiz.com/sites/tutorial2program/files/flowchart-break-statement.jpg)
 ---
@@ -272,6 +275,7 @@ print("The end")
 ```python
 pass
 ```
+---
 #### Example: pass Statement
 ```python
 # pass is just a placeholder for
