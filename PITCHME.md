@@ -184,7 +184,7 @@ while test_expression:
 ---
 #### Flowchart of while Loop
 
-![for loop]https://cdn.programiz.com/sites/tutorial2program/files/whileLoopFlowchart.jpg)
+![for loop](https://cdn.programiz.com/sites/tutorial2program/files/whileLoopFlowchart.jpg)
 ---
 #### Example: Python while Loop
 ```python
