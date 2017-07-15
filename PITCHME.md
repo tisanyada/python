@@ -12,6 +12,71 @@ linkedin:
 ---
 ##Day 3
 ---
+### Python Input, Output and Import
+---
+#### python output
+```python
+print('This sentence is output to the screen')
+# Output: This sentence is output to the screen
+
+a = 5
+
+print('The value of a is', a)
+# Output: The value of a is 5
+```
+---
+The actual syntax of the print() function is
+```python
+print(*objects, sep=' ', end='\n')
+```
+---
+Example
+```python
+print(1,2,3,4)
+# Output: 1 2 3 4
+
+print(1,2,3,4,sep='*')
+# Output: 1*2*3*4
+
+print(1,2,3,4,sep='#',end='&')
+# Output: 1#2#3#4&
+```
+---
+#### Output formatting
+```python 
+>>> x = 5; y = 10
+>>> print('The value of x is {} and y is {}'.format(x,y))
+The value of x is 5 and y is 10
+```
+---
+#### Example of output formating usin idexing
+```python
+print('I love {0} and {1}'.format('bread','butter'))
+# Output: I love bread and butter
+
+print('I love {1} and {0}'.format('bread','butter'))
+# Output: I love butter and bread
+```
+---
+### Python Input
+---
+#### syntax of python input
+```python 
+input([prompt])
+```
+---
+#### Example of python input
+```python
+>>> num = input('Enter a number: ')
+Enter a number: 10
+>>> num
+'10
+```
+---
+### Python Import
+---
+#### How to import modules
+---
 ### Python Flow Control
 If...else<br>
 for loop<br>
