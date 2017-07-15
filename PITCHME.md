@@ -12,24 +12,27 @@ linkedin:
 ---
 ##Day 3
 ---
-###Python Flow Control
-If...else
-for loop
-while loop
-break and continue
+### Python Flow Control
+If...else<br>
+for loop<br>
+while loop<br>
+break and continue<br>
 pass
 ---
+
 ![condition](https://cdn.programiz.com/sites/tutorial2program/files/python-if-else.jpg)
 
 ---
+
 ```python
 if test expression:
     statement(s)
  ```
+ 
  ---
  ![if statement flow chart](https://cdn.programiz.com/sites/tutorial2program/files/Python_if_statement.jpg)
  ---
- ###Example: Python if Statement
+ ### Example: Python if Statement
  ```python
  # If the number is positive, we print an appropriate message
 
