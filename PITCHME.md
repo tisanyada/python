@@ -208,6 +208,7 @@ while i <= n:
 # print the sum
 print("The sum is", sum)
 ```
+---
 ### while loop with else
 ---
 #### Example 
@@ -287,7 +288,7 @@ for val in sequence:
 ---
 
 
-
+#THE END
 
 
 
