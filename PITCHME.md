@@ -5,7 +5,7 @@ Gitlab: miyanda2<br>
 Instagram: miyanda2<br>
 Email: micheal@uplift.ng<br>
 ---
-##Day 3
+#Day 3
 ---
 ### Python Input, Output and Import
 ---
@@ -22,18 +22,20 @@ print('The value of a is', a)
 ---
 The actual syntax of the print() function is
 ```python
+from __future__ import print_function
 print(*objects, sep=' ', end='\n')
 ```
 ---
 Example
 ```python
+from __future__ import print_function
 print(1,2,3,4)
 # Output: 1 2 3 4
 
-print(1,2,3,4,sep='*')
+print (1,2,3,4,sep='*')
 # Output: 1*2*3*4
 
-print(1,2,3,4,sep='#',end='&')
+print (1,2,3,4,sep='#',end='&')
 # Output: 1#2#3#4&
 ```
 ---
