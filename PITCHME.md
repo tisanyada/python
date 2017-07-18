@@ -1,9 +1,9 @@
-#MICHEAL IYANDA<br>
-fbk: miyanda2
-github: miyanda2
-gitlab: miyanda2
-instagram: miyanda2
-email: micheal@uplift.ng
+#MICHEAL IYANDA<br><br>
+Facebook: miyanda2<br>
+Github: miyanda2<br>
+Gitlab: miyanda2<br>
+Instagram: miyanda2<br>
+Email: micheal@uplift.ng<br>
 ---
 ##Day 3
 ---
