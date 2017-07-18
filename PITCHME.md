@@ -1,14 +1,9 @@
-##Bio<br>
-
-i am Micheal Iyanda, read computer science,<br>
-majored in cms(wordpress), graphics(photoshop), programing (Python)
-you can catch me on
+#MICHEAL IYANDA<br>
 fbk: miyanda2
 github: miyanda2
-gitlab: 
-twitter: 
-instagram:
-linkedin:
+gitlab: miyanda2
+instagram: miyanda2
+email: micheal@uplift.ng
 ---
 ##Day 3
 ---
