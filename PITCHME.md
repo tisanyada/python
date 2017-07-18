@@ -86,7 +86,7 @@ pass
 ![condition](https://cdn.programiz.com/sites/tutorial2program/files/python-if-else.jpg)
 
 ---
-#### if... else
+#### if........
 ```python
 if test expression:
     statement(s)
@@ -108,7 +108,7 @@ if num > 0:
     print(num, "is a positive number.")
 print("This is also always printed.")
 ```
-
+---
 ### Python if...else Statement
 ---
 ####Syntax of if...else
@@ -125,10 +125,6 @@ else:
 # And displays an appropriate message
 
 num = 3
-
-# Try these two variations as well. 
-# num = -5
-# num = 0
 
 if num >= 0:
     print("Positive or Zero")
@@ -147,9 +143,7 @@ elif test expression:
 else: 
     Body of else
 ```
----
-![if...elif...else](https://cdn.programiz.com/sites/tutorial2program/files/Python_if_elif_else_statement.jpg)
----
+
 #### Example of if...elif...else
 ```python
 # In this program, 
@@ -159,9 +153,7 @@ else:
 
 num = 3.4
 
-# Try these two variations as well:
-# num = 0
-# num = -4.5
+
 
 if num > 0:
     print("Positive number")
@@ -200,8 +192,6 @@ else:
 for val in sequence:
 	Body of for
 ```
----
-![for loop](https://cdn.programiz.com/sites/tutorial2program/files/forLoop.jpg)
 ---
 #### Example: Python for Loop
 ```python
