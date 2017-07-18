@@ -29,9 +29,6 @@ print(*objects, sep=' ', end='\n')
 Example
 ```python
 from __future__ import print_function
-print(1,2,3,4)
-# Output: 1 2 3 4
-
 print (1,2,3,4,sep='*')
 # Output: 1*2*3*4
 
@@ -72,7 +69,11 @@ Enter a number: 10
 ---
 ### Python Import
 ---
-#### How to import modules
+#### math<br>
+#### random<br>
+#### os<br>
+etc
+
 ---
 ### Python Flow Control
 If...else<br>
@@ -85,15 +86,14 @@ pass
 ![condition](https://cdn.programiz.com/sites/tutorial2program/files/python-if-else.jpg)
 
 ---
-
+#### if... else
 ```python
 if test expression:
     statement(s)
  ```
- 
- ---
+---
  ![if statement flow chart](https://cdn.programiz.com/sites/tutorial2program/files/Python_if_statement.jpg)
- ---
+---
  ### Example: Python if Statement
  ```python
  # If the number is positive, we print an appropriate message
