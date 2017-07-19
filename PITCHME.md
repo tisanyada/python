@@ -1,4 +1,4 @@
-#MICHEAL IYANDA<br><br>
+#MICHEAL IYANDA<br>
 Facebook: miyanda2<br>
 Github: miyanda2<br>
 Gitlab: miyanda2<br>
@@ -43,7 +43,7 @@ print (1,2,3,4,sep='#',end='&')
 The value of x is 5 and y is 10
 ```
 ---
-#### Example of output formating usin idexing
+#### Example of output formating using idexing
 ```python
 print('I love {0} and {1}'.format('bread','butter'))
 # Output: I love bread and butter
@@ -69,10 +69,11 @@ Enter a number: 10
 ---
 ### Python Import
 ---
-#### math<br>
-#### random<br>
-#### os<br>
-etc
+### math<br>
+#### example of math function (i)(pi)(/i)etc<br>
+### sys<br>
+#### example of sys function (i)(sys), (getcwd)</i>etc
+
 
 ---
 ### Python Flow Control
@@ -101,12 +102,12 @@ if test expression:
 num = 3
 if num > 0:
     print(num, "is a positive number.")
-print("This is always printed.")
+
 
 num = -1
 if num > 0:
     print(num, "is a positive number.")
-print("This is also always printed.")
+
 ```
 ---
 ### Python if...else Statement
@@ -285,20 +286,7 @@ else:
 break
 ```
 ---
-#### Flowchart of break
-![break](https://cdn.programiz.com/sites/tutorial2program/files/flowchart-break-statement.jpg)
----
-#### Example: Python break
-```python
-# Use of break statement inside loop
-
-for val in "string":
-    if val == "i":
-        break
-    print(val)
-
-print("The end")
-```
+![break](https://cdn.programiz.com/sites/tutorial2program/files/how-break-statement-works.jpg)
 ---
 ### Python continue statement
 ---
