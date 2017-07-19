@@ -22,7 +22,6 @@ print('The value of a is', a)
 ---
 The actual syntax of the print() function is
 ```python
-from __future__ import print_function
 print(*objects, sep=' ', end='\n')
 ```
 ---
