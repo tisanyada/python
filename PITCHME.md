@@ -70,9 +70,9 @@ Enter a number: 10
 ### Python Import
 ---
 ### math<br>
-#### example of math function (i)(pi)(/i)etc<br>
+#### example of math function <i>(pi)</i>etc<br>
 ### sys<br>
-#### example of sys function (i)(sys), (getcwd)</i>etc
+#### example of sys function <i>(sys), (getcwd)</i> etc
 
 
 ---
